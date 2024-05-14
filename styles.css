@@ -1,0 +1,27 @@
+body {
+    background-color: #e9dfcf;
+    color: #2b2b2b;
+}
+
+main {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#map {
+    height: 80vh;
+    width: 99vw;
+    background-color: aliceblue;
+    border: 2px solid rgb(25, 119, 212);
+}
+
+h1 {
+    text-align: center;
+    height: 5vh;
+    align-content: center;
+}
+
+#select-body>p {
+    margin-bottom: -0.0001px;
+}

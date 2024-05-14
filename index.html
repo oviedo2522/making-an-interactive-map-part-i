@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+</head>
+
+<body>
+    <main>
+
+        <h1> Welcome to my map! </h1>
+
+        <section id="map"></section>
+
+        <section id="select-body">
+
+            <p>Choose an option above to see locations around you.</p>
+
+            <label for="location">Business</label>
+
+            <select id="business-finder">
+                <option value="null">Please Choose</option>
+                <option value="coffee">Coffee</option>
+                <option value="hotel">Hotel</option>
+                <option value="restaurant">Restaurant</option>
+                <option value="market">Market</option>
+            </select>
+
+        </section>
+
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
